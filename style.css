@@ -1,0 +1,101 @@
+body {
+    background-color: #a3a9ff;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #1d1678;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    width: 800px;
+    border-radius: 10px 90px 10px 90px;
+    -webkit-border-radius: 10px 90px 10px 90px;
+    -moz-border-radius: 10px 90px 10px 90px;
+    -ms-border-radius: 10px 90px 10px 90px;
+    -o-border-radius: 10px 90px 10px 90px;
+}
+
+.boxText h1 {
+    font-size: 23px;
+    color: #f2fb00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.formNumber>h3 {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgb(154, 0, 236);
+}
+
+.formNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #8576FF;
+    outline: 0;
+    border: 0;
+    box-shadow: 1px 1px 7px 1px rgb(101, 3, 112);
+}
+
+input::placeholder {
+    color: #1C1678;
+    transition: all ease-in-out 0.9s;
+    -webkit-transition: all ease-in-out 0.9s;
+    -moz-transition: all ease-in-out 0.9s;
+    -ms-transition: all ease-in-out 0.9s;
+    -o-transition: all ease-in-out 0.9s;
+}
+
+#btn {
+    width: 20%;
+    background-color: #7BC9FF;
+    outline: 0;
+    border: 0;
+    font-weight: 900;
+    box-shadow: 1px 1px 7px 1px #01010f;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+#btn:hover {
+    background-color: #E59BE9;
+    color: #000000;
+    transition: ease-in-out 0.9s;
+    -webkit-transition: ease-in-out 0.9s;
+    -moz-transition: ease-in-out 0.9s;
+    -ms-transition: ease-in-out 0.9s;
+    -o-transition: ease-in-out 0.9s;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#displayAns{
+    width: 400px;
+    font-weight: 900;
+    background-color:transparent;
+    color: #8576FF;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
